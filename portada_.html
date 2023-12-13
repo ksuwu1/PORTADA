@@ -4,73 +4,43 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Portada</title>
-    <style>
-        body {
-            font-family: Arial, sans-serif;
-            margin: 0;
-            padding: 0;
-            background-color: #f4f4f4;
-        }
-
-        header {
-            text-align: center;
-            padding: 20px;
-            background-color: #333;
-            color: #fff;
-        }
-
-        #images-container {
-            text-align: center;
-            margin-top: 20px;
-        }
-
-        #image1, #image2 {
-            width: 250px;
-            height: 150px;
-           
-            margin: 0 10px;
-        }
-
-        .content {
-            text-align: center;
-            margin: 20px;
-        }
-
-        .footer {
-            margin-top: 20px;
-            text-align: center;
-            padding: 10px;
-            background-color: #333;
-            color: #fff;
-        }
-    </style>
+    <!-- Agregar enlace a Bootstrap CSS -->
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0/css/bootstrap.min.css">
 </head>
 <body>
-    <header>
+    <header class="bg-dark text-white text-center py-4">
         <h1>INSTITUTO TECNOLÓGICO DE AGUASCALIENTES</h1>
         <p>INGENIERÍA EN TECNOLOGÍAS DE LA INFORMACIÓN Y COMUNICACIONES</p>
         <p>PROGRAMACIÓN WEB 11:00-12:00 - GITHUB - UNIDAD V</p>
         <p>Profesor: HAZAEL VAZQUEZ GONZALEZ</p>
     </header>
 
-    <div id="images-container">
-        <img id="image1" src="https://aguascalientes.tecnm.mx/wp-content/uploads/2023/09/xtGahDD.png" alt="Imagen 1">
-        <img id="image2" src="https://upload.wikimedia.org/wikipedia/commons/d/d4/Logo-TecNM-2017.png" alt="Imagen 2">
+    <div class="container mt-4">
+        <div class="row justify-content-center">
+            <div class="col-md-6">
+                <img class="img-fluid" src="https://aguascalientes.tecnm.mx/wp-content/uploads/2023/09/xtGahDD.png" alt="Imagen 1">
+            </div>
+            <div class="col-md-6">
+                <img class="img-fluid" src="https://upload.wikimedia.org/wikipedia/commons/d/d4/Logo-TecNM-2017.png" alt="Imagen 2">
+            </div>
+        </div>
     </div>
 
-    <div class="content">
-        <p><strong>ALUMNOS:</p></strong>
+    <div class="container text-center mt-4">
+        <p class="font-weight-bold">ALUMNOS:</p>
         <p>Luna Rojas Casandra</p>
         <p>Número de control: 21151062</p>
         <p>Nieves Quezada Daián De Jesús.</p>
         <p>Número de control: 21151086</p>
     </div>
 
-    <footer>
-
-    <div class="footer">
+    <footer class="bg-dark text-white text-center py-2 mt-4">
         <p>FECHA Y LUGAR: Lunes 11 de Diciembre Del 2023, Aguascalientes, Ags</p>
-    </div>
-</footer>
+    </footer>
+
+    <!-- Agregar enlace a Bootstrap JS y Popper.js (necesario para algunos componentes de Bootstrap) -->
+    <script src="https://code.jquery.com/jquery-3.2.1.slim.min.js"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.12.9/umd/popper.min.js"></script>
+    <script src="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0/js/bootstrap.min.js"></script>
 </body>
 </html>
